@@ -1,0 +1,30 @@
+.new-year-card {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    font-family: 'Pacifico', cursive;
+    box-shadow: none;
+    font-size: 20px;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.from {
+    font-family: 'Mansalva', cursive;
+    color: darkseagreen;
+    font-size: 27px;
+    bottom: -20px;
+}
+
+.text {
+    font-size: 25px;
+}
